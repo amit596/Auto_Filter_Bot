@@ -70,14 +70,14 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/how_to_open_link_ak/10")
 SHORTENER_API = environ.get("SHORTENER_API", "95c90443f0324be097970c3f704e16eca7116c81")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortxlinks.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "95c90443f0324be097970c3f704e16eca7116c81")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortxlinks.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "95c90443f0324be097970c3f704e16eca7116c81")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shortxlinks.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "21600"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "72000"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "7200"))
 
 #Othes
 TMDB_API = environ.get("TMDB_API", "6abcb6bb99fb77f33c37016a28866ed2")
